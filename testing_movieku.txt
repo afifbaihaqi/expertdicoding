@@ -1,0 +1,57 @@
+A. Unit Test
+
+1. MovieViewModelTest:
+
+Memuat Movies:
+a. Memastikan data movie tidak null.
+b. Memastikan jumlah data movie sesuai dengan yang diharapkan.
+
+2. TvViewModelTest:
+
+Memuat Tv Shows:
+a. Memastikan data TvShow tidak null.
+b. Memastikan jumlah data TvShow sesuai dengan yang diharapkan.
+
+3. DetailViewModelTest:
+
+Memuat Movies:
+a. Memastikan data movie tidak null.
+b. Memastikan data movie sesuai dengan yang diharapkan.
+
+Memuat Tv Shows:
+a. Memastikan data module tidak null.
+b. Memastikan jumlah data module sesuai dengan yang diharapkan.
+
+
+
+B. Instrumental Testing
+
+1. Movies
+
+Memuat List Movies:
+a. Memastikan rv_movie tampil
+b. Scroll rv_movie sebesar size
+
+Memuat Detail Movies:
+a. Melakukan klik pada item 1 rv_movie
+b. Memastikan imageView tampil
+c. Memastikan title tampil seperti title item 1
+d. Memastikan genre tampil
+e. Memastikan tv_eps tampil
+f. Memastikan release tampil
+g. Memastikan description tampil
+
+2. Tv Shows
+
+Memuat List Tv Shows:
+a. Memastikan rv_tv_show tampil
+b. Scroll rv_tv_show sebesar size
+
+Memuat Detail Tv Shows:
+a. Melakukan klik pada item 1 rv_tv_show
+b. Memastikan imageView tampil
+c. Memastikan title tampil seperti title item 1
+d. Memastikan genre tampil
+e. Memastikan tv_eps tampil
+f. Memastikan release tampil
+g. Memastikan description tampil
