@@ -2,7 +2,7 @@ package com.afifbaihaqi.movieku.favorite
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.afifbaihaqi.movieku.databinding.ActivityFavoriteBinding
+import com.afifbaihaqi.movieku.favorite.databinding.ActivityFavoriteBinding
 
 class FavoriteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

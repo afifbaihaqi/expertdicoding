@@ -10,9 +10,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.afifbaihaqi.movieku.core.adapter.MovieFavoriteAdapter
 import org.koin.android.viewmodel.ext.android.viewModel
-import com.afifbaihaqi.movieku.databinding.FragmentMovieFavoriteBinding
 import com.afifbaihaqi.movieku.detail.DetailActivity
 import com.afifbaihaqi.movieku.core.domain.model.Movie
+import com.afifbaihaqi.movieku.favorite.databinding.FragmentMovieFavoriteBinding
 import com.afifbaihaqi.movieku.favorite.favoriteModule
 import org.koin.core.context.loadKoinModules
 
